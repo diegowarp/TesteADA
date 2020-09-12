@@ -7,8 +7,10 @@ int main(){
 
     float res;
 
-    t = 21.8;
+    printf("Por favor! Digite um numero AGORA: ");
+    scanf("%f", &t);
+
     res = ((0.2*t)+(0.07*t*t)+((0.023/3)*t*t*t));
 
-    printf("Valor: %f", res);
+    printf("Valor do fatorial: %f", res);
 }
